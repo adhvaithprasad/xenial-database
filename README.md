@@ -1,12 +1,12 @@
-#Xenialbase db
+# Xenialbase db
 An open sourced asychronous nodejs module to create json databases
 
 
-#Install 
+# Install 
 ```sh
 $ npm i xenialdb
 ```
-#Example
+# Example
 ```js
 var xenialdb = require('xenialdb')
 var db = new xenialdb('data.json')
@@ -22,7 +22,7 @@ db.ready = function(){
 }
 
 ```
-###expected output
+### expected output
 ```sh
 Data stored!
 { hello: 'Hello', world: 'world' }
